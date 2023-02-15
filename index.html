@@ -9,33 +9,115 @@
 		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 		<!-- external CSS -->
 		<link rel="stylesheet" type="text/css" href="./index.css">
+		<link rel="stylesheet" type="text/css" href="./style.css">
 	</head>
 	<body>
 
 		<!-- start of navbar -->
-			<nav class="navbar navbar-expand-lg navbar-light bg-light" id="bar">
+			<nav class="navbar navbar-expand-lg navbar-light" id="logo">
 			  <div class="container">
 			  <a class="navbar-brand" href="#"><img src="./images/Logo.png"></a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
-			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			  <div class="collapse navbar-collapse text-light" id="navbarNavAltMarkup">
 			    <div class="navbar-nav ml-auto">
-			      <a class="nav-link" href="#">Home</a>
-			      <a class="nav-link" href="#">Gallery</a>
-			      <a class="nav-link" href="#">Contact</a>
+			      <a class="nav-link text-light" href="#">Home</a>
+			      <a class="nav-link text-light" href="#">Gallery</a>
+			      <a class="nav-link text-light" href="#">Contact</a>
 			    </div>
 			  </div>
 			  </div>
 			</nav>
+		<!-- end of navbar -->
+
+		<!-- start of landing -->
+
+		<div class="container-fluid py-5" id="landing">
+			<div class="row py-5 my-5 justify-content-center">
+				<div class="col-md-8 pt-md-5">
+					<h1 class="text-light" id="title">Replace This With Your Title</h1>
+					<p id="par">You can use this section to narrate a short description for the title or page</p>
+					<button class="text-light px-4 py-1 my-3" id="get">Get started</button>
+				</div>
+			</div>
+			
+		</div>
+		<!-- end of landing -->
+
+		<div class="container my-5 py-5" id="pic">
+			<h1 id="text-title">Gallery</h1>
+			<p id="para" class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+			<div class="row">
+				<div class="col-md-4 my-3">
+					<img src="./images/gallery1.png" class="img-fluid">
+				</div>
+				<div class="col-md-4 my-3">
+					<img src="./images/gallery2.png" class="img-fluid">
+				</div>
+				<div class="col-md-4 my-3">
+					<img src="./images/gallery3.png" class="img-fluid">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 my-3">
+					<img src="./images/gallery4.png" class="img-fluid">
+				</div>
+				<div class="col-md-4 my-3">
+					<img src="./images/gallery5.png" class="img-fluid">
+				</div>
+				<div class="col-md-4 my-3">
+					<img src="./images/gallery6.png" class="img-fluid">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 my-3">
+					<img src="./images/gallery7.png" class="img-fluid">
+				</div>
+				<div class="col-md-4 my-3">
+					<img src="./images/gallery8.png" class="img-fluid">
+				</div>
+				<div class="col-md-4 my-3">
+					<img src="./images/gallery9.png" class="img-fluid">
+				</div>
+			</div>
+		</div>
 		
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="./images/contact.png">
+					
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+					<form>
+					  <div class="form-group">
+					    <label for="exampleFormControlInput1">Email address</label>
+					    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleFormControlTextarea1">Example textarea</label>
+					    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					  </div>
+					</form>
+					
+
+				</div>
+				
+
+			</div>
+			
+		</div>
 	
 
 
-
+		<!-- bootstrap -->
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 	</body>

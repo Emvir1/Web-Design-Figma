@@ -1,8 +1,6 @@
-#bar {
-	color: #F2D2AE;
+#logo {
+	background: #765C3D;
 }
-
-
 
 .navbar-nav a {
 
@@ -15,5 +13,83 @@
 
 	text-align: center;
 
-	color: #F2D2AE;
+}
+
+#get {
+	text-align: center;
+
+	/* Button/Text/button-primary-text */
+
+	color: #FFFFFF;
+	background: #B59066;
+	border-radius: 999px;
+
+}
+}
+
+#title {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 72px;
+	/* or 112% */
+
+	letter-spacing: -0.02em;
+
+	color: #FFFFFF;
+}
+
+#par {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	/* or 125% */
+
+
+	color: #FFFFFF;
+
+}
+
+
+#landing {
+	background: 
+
+	linear-gradient(
+		 	rgba(0, 0, 0, 0.59),
+            rgba(0, 0, 0, 0.59)
+			),
+
+			url("./images/landing.png")
+			;
+			background-repeat: no-repeat;
+			background-size: cover;
+}
+
+#text-title {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 49px;
+	/* identical to box height */
+
+	color: #765C3D;
+	text-align: center;
+
+}
+
+#para {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+
+	color: #765C3D;
+
+
 }
